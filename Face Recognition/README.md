@@ -1,11 +1,11 @@
-#Project Overview: Face Recognition using OpenCV + NumPy
+# Project Overview: Face Recognition using OpenCV + NumPy
 This project implements a basic face recognition system using a combination of:
 
 - Haar Cascade for face detection
 - NumPy arrays to store face data
 - K-Nearest Neighbors (KNN) for classification
 
-#📌 Project Breakdown
+## 📌 Project Breakdown
 Here’s how project is likely structured:
 1. Face Data Collections
 
@@ -34,13 +34,13 @@ For each new frame from the webcam:
 - Uses the webcam to continuously detect and recognize faces in real-time.
 - Shows the frame with a rectangle and the predicted label (person's name). 
 
-#🧠 KNN Logic:
+# 🧠 KNN Logic:
 
 - Compute Euclidean distance from input face to all training faces.
 - Sort and pick the top K.
 - Return the label with the majority votes.
 
- #🧪 Sample Output 
+ # 🧪 Sample Output 
  
  When you run the final face recognition:
 - It draws rectangles around detected faces.
