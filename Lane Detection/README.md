@@ -1,7 +1,7 @@
 # 🚗 Lane Detection using OpenCV
 This project performs lane line detection on road images and videos using computer vision techniques with OpenCV. 
 It highlights lane lines and fills the lane area with green color, providing a visual representation of the drivable area.
----
+
 
 ## 📌 Features
 
@@ -11,24 +11,22 @@ It highlights lane lines and fills the lane area with green color, providing a v
 - Lane line extrapolation
 - Lane area filling with green overlay
 
----
 
 ## 🛠️ Requirements
 
 Install required Python packages:
-
-
-pip install numpy matplotlib opencv-python
+bash''' pip install numpy matplotlib opencv-python
 
 # 🚀 How to Run
 - Clone or download this repository.
 - Place your road image in the working directory.
 - Open and run the Jupyter Notebook:
 jupyter notebook "lane detection from image.ipynb"
--Follow the code cells in sequence to:
-  -Load the image
-  -Detect lane lines
-  -Overlay the filled lane area in green
+
+- Follow the code cells in sequence to:
+  - Load the image
+  - Detect lane lines
+  - Overlay the filled lane area in green
 
 # 🧠 Algorithm Overview
 
@@ -38,11 +36,5 @@ jupyter notebook "lane detection from image.ipynb"
 - Hough Transform: Detect straight lines representing lane boundaries.
 - Lane Filling: Draw a green polygon between left and right lines to visualize the lane.
 
-## 📂 File Structure
-.
-├── lane detection from image.ipynb # Main notebook for lane detection
-├── test_image/ # Folder containing sample input images
-├── test_video/ # Folder containing sample input videos
-├── README.md # Project description and usage guide
 
   
