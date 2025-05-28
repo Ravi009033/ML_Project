@@ -17,14 +17,13 @@ It highlights lane lines and fills the lane area with green color, providing a v
 
 Install required Python packages:
 
-```bash
+
 pip install numpy matplotlib opencv-python
 
 # 🚀 How to Run
 - Clone or download this repository.
 - Place your road image in the working directory.
 - Open and run the Jupyter Notebook:
-```bash
 jupyter notebook "lane detection from image.ipynb"
 -Follow the code cells in sequence to:
   -Load the image
@@ -38,3 +37,12 @@ jupyter notebook "lane detection from image.ipynb"
 - ROI Masking: Focus on the road area using a polygonal mask.
 - Hough Transform: Detect straight lines representing lane boundaries.
 - Lane Filling: Draw a green polygon between left and right lines to visualize the lane.
+
+## 📂 File Structure
+.
+├── lane detection from image.ipynb # Main notebook for lane detection
+├── test_image/ # Folder containing sample input images
+├── test_video/ # Folder containing sample input videos
+├── README.md # Project description and usage guide
+
+  
