@@ -18,7 +18,7 @@ evaluate models that suggest movies to users based on their preferences, using t
 # 📦 Requirements
 Typical libraries used:
 - pandas
-- nump
+- numpy
 - matplotlib
 - seaborn
 
