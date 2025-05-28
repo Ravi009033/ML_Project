@@ -35,11 +35,11 @@ jupyter notebook "Straight Lane Detection Using Computer Vision.ipynb"
 
 # 🧠 Algorithm Overview
 
-- Grayscale & Blur: Convert to grayscale and apply Gaussian blur to reduce noise.
-- Canny Edge Detection: Identify sharp changes in pixel intensity.
-- ROI Masking: Focus on the road area using a polygonal mask.
-- Hough Transform: Detect straight lines representing lane boundaries.
-- Lane Filling: Draw a green polygon between left and right lines to visualize the lane.
+- **Grayscale & Blur**: Convert to grayscale and apply Gaussian blur to reduce noise.
+- **Canny Edge Detection**: Identify sharp changes in pixel intensity.
+- **ROI Masking**: Focus on the road area using a polygonal mask.
+- **Hough Transform**: Detect straight lines representing lane boundaries.
+- **Lane Filling**: Draw a green polygon between left and right lines to visualize the lane.
 
 
   
