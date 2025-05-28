@@ -10,7 +10,7 @@ Bounding boxes are drawn around detected faces, and the application exits gracef
 # Install dependencies:
 pip install opencv-python
 
-🧠 How It Works
+# 🧠 How It Works
 - The webcam feed is captured using cv2.VideoCapture.
 - Frames are converted to grayscale for efficient face detection.
 - Haar cascade XML data (haarcascade_frontalface_alt.xml) is used to detect faces.
