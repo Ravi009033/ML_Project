@@ -15,13 +15,18 @@ It highlights lane lines and fills the lane area with green color, providing a v
 ## 🛠️ Requirements
 
 Install required Python packages:
-bash''' pip install numpy matplotlib opencv-python
+```
+pip install numpy matplotlib opencv-python
+```
 
 # 🚀 How to Run
 - Clone or download this repository.
 - Place your road image in the working directory.
 - Open and run the Jupyter Notebook:
-jupyter notebook "lane detection from image.ipynb"
+  
+```
+jupyter notebook "Straight Lane Detection Using Computer Vision.ipynb"
+```
 
 - Follow the code cells in sequence to:
   - Load the image
